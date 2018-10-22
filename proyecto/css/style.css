@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.hero{
+	background-image: url('../images/h_bg.jpg'); /*aqui se llama la imagen que esta en la carpeta*/
+    min-height: 500px;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+
+}
+
+.hero .intro,
+.hero .intro .row{
+	height: 100%;
+	text-align: center;
+}
+
+.hero .intro h1{
+	font-weight: 400;
+	font-size: 2.1rem;
+}
+
+.overlay{
+	background: rgb(36, 42, 53, .7);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.home section{
+	padding: 40px 0px;
+}
+.home section .title{
+	text-align: center;
+	padding: 40px;
+}
+.home section .title h1{
+	
+}
+.features{
+	background: #f8f9fa;
+}
+.features .feature{
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.features .feature img, 
+.features .feature h4{
+	margin: 10px;
+		
+}
+
+footer{
+	background: black;
+	color: white;
+	padding: 40px;
+}
+
+footer .rigth{
+	text-align: center;
+	background: 000000;
+	color: FFFFFF;
+	padding: 20px;
+}
